@@ -1,0 +1,234 @@
+h1 { font-size: 1em; font-weight: bold; }
+h2 { font-size: 6em; font-style: bold; font-family: Perpetua ; }
+h3 { font-size: 5em; font-weight: normal;}
+p { color: gray;}
+
+.contenedor-main{
+    margin: 0em;
+    width: 100vw;
+    
+
+}
+
+.contenedor{
+    display: flex;
+    /*flex-flow: column wrap;*/
+    flex-direction: row;
+    padding-top: 5em; 
+    justify-content: center;
+    width: 100vw;
+    height: 750px;
+    margin: 0em;
+    /*background-color: green;*/
+}
+
+.items-contenedor{
+    width: 45%;
+}
+.contenedor-2{
+    display: flex;
+    flex-flow: wrap;
+    /*flex-direction: column;*/
+    padding-top: 5em; 
+    justify-content: center;
+    /*width: 100vw;*/
+    height: 750px;
+}
+.items-contenedor-2{
+    width: 50%;
+}
+
+.contenedor-descargas{
+    display: flex;
+    width: 100vw;
+    /*height: 50vh;*/
+    background-image:url(../img/wooden-texture.jpg);
+    color: white;
+    margin: 0em;
+}
+
+.item-descargas{
+    margin-top: 10em;
+    margin-bottom: 10em;
+    margin-left: 10em;
+    /*margin-right: 60em;*/
+}
+
+#padre{
+    position:relative;
+}
+
+#cero{
+    position: absolute;
+    /*background-color: red;*/
+    top: 6.5em;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 500px;
+}
+  
+#uno{
+    position: absolute;
+    /* background-color: violet; */
+    top: 1em;
+    left: 130px;
+    right: 0;
+    margin: 0 auto;
+    /*width: 20px;*/
+    width: 500px;
+    height: 38em;
+    border-radius: 50px;  
+}
+
+#dos{
+    position: absolute;
+    /*background-color: pink;*/
+    top: 0;
+    left: 120px;
+    right: 0;
+    margin: 0 auto;
+    /*width: 20px;*/
+}
+
+#tres {
+    position: absolute;
+    /*background-color: red;*/
+    top: 13em;
+    left: 140px;
+    right: 0;
+    margin: 0 auto;
+    /*width: 20px;*/
+}
+
+#uno-herr{
+    position: absolute;
+    /* background-color: violet; */
+    top: 1em;
+    left: 200px;
+    right: 0;
+    margin: 0 auto;
+    /*width: 20px;*/
+    width: 500px;
+    height: 38em;
+    border-radius: 50px;  
+}
+
+#dos-herr{
+    position: absolute;
+    /*background-color: pink;*/
+    top: 0;
+    left: 190px;
+    right: 0;
+    margin: 0 auto;
+    /*width: 20px;*/
+}
+
+#tres-herr{
+    position: absolute;
+    /*background-color: red;*/
+    top: 13em;
+    left: 210px;
+    right: 0;
+    margin: 0 auto;
+    /*width: 20px;*/
+}
+
+.rectangulo-negro{
+    background-color: rgb(27, 25, 25);
+    width: 300px;
+    height: 38em;
+    border-radius: 50px;  
+}
+
+.circulo-degradado{
+    background-image: radial-gradient(circle at 111.24% 85.36%, #d151ed 0, #b948ef 16.67%, #9c42f1 33.33%, #783cf2 50%, #4339f3 66.67%, #0038f5 83.33%, #0039f6 100%);
+    border-radius: 300px;  
+    width: 450px; 
+    height: 450px;
+}
+
+.contenedor-pie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+}
+
+.items-contenedor-pie-1{
+    height: 50px;
+    padding-top:  30px;
+    padding-bottom: 0px;
+    margin: 0em;
+    /*background-color: brown;*/
+}
+
+.items-contenedor-pie-2{
+    height: 50px;
+    padding-top:  0px;
+    padding-bottom:  30px;
+    margin: 0em;
+    /*background-color: blueviolet;*/
+}
+
+.img-movil{
+    width: 20em;
+}
+
+.b-icono-herramientas{
+    font-size: 4rem; 
+    color: #3d32ed;
+}
+
+.b-icono-pie{
+    font-size: 1rem;
+    color: gray;
+}
+
+.btn{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 15px;
+    color: white;
+    padding-top:9px;
+    padding-bottom:9px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color: #2937f0;
+    border-radius: 50px;
+}
+
+.btn:hover{
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#2937f0));
+    background: -moz-linear-gradient(top, #ffffff, #2937f0);
+    color: white;
+} 
+
+.btn-inactivo{
+    color: black;
+
+}
+
+.btn-transparente {
+    display: inline-block;
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border: 2px solid #fff;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+    transition: background-color 0.2s ease-out,
+    color 0.2s ease-out;
+    border-radius: 50px;
+}
+
+.btn-transparente:hover,
+.btn-transparente:active {
+    background-color: #fff;
+    color: #000;
+    transition: background-color 0.3s ease-in,
+    color 0.3s ease-in;
+}
